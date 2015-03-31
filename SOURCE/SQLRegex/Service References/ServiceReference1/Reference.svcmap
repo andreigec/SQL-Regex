@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7868e125-6d73-4df8-87f8-ab94e4e75a9e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://andreigec.net/services/Services.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Services.xsd" MetadataType="Schema" ID="5cb7105a-56b6-4abc-8a80-5fadc9f8df2c" SourceId="1" SourceUrl="http://andreigec.net/services/Services.svc?xsd=xsd0" />
+    <MetadataFile FileName="Services.disco" MetadataType="Disco" ID="3255a09a-bea4-4907-859f-ed53a7a982cd" SourceId="1" SourceUrl="http://andreigec.net/services/Services.svc?disco" />
+    <MetadataFile FileName="Services1.xsd" MetadataType="Schema" ID="67d8463d-8a23-4445-82e1-8301f45bf732" SourceId="1" SourceUrl="http://andreigec.net/services/Services.svc?xsd=xsd2" />
+    <MetadataFile FileName="Services2.xsd" MetadataType="Schema" ID="05dc4ac7-5ee6-4be6-8521-484b6dab2bee" SourceId="1" SourceUrl="http://andreigec.net/services/Services.svc?xsd=xsd1" />
+    <MetadataFile FileName="Services.wsdl" MetadataType="Wsdl" ID="609b2c87-7189-4a37-8c0b-11a6e4ad7c5d" SourceId="1" SourceUrl="http://andreigec.net/services/Services.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
