@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ANDREICSLIB;
+using ANDREICSLIB.ClassExtras;
 
 namespace SQLRegex
 {
