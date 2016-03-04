@@ -32,7 +32,7 @@ artifacts:
 - path: sqlregex.zip
   name: sqlregex
 deploy:
-  release: HiddenWords-v$(appveyor_build_version)
+  release: SQLRegex-v$(appveyor_build_version)
   description: '$(APPVEYOR_REPO_COMMIT_AUTHOR) - $(APPVEYOR_REPO_COMMIT_MESSAGE)'
   provider: GitHub
   auth_token:
